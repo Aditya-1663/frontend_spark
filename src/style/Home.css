@@ -1,0 +1,79 @@
+body{
+    /* background-color: black; */
+    /* background-color: #000120; */
+    /* background-color: #00003d; */
+    background-color: #010141;
+    /* background: url('https://img.freepik.com/free-vector/credit-card-coming-out-mobile-concept-background_1017-36141.jpg?size=626&ext=jpg&ga=GA1.1.433269929.1674957879&semt=ais'); */
+    background-size: cover;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+
+}
+.upper-box{
+    height: 85vh;
+    position: relative;
+}
+.col{
+    /* border: 2px green dotted; */
+    height: 77vh;
+
+    
+}
+.img-box{
+    /* background: url('https://img.freepik.com/free-vector/credit-card-coming-out-mobile-concept-background_1017-36141.jpg?size=626&ext=jpg&ga=GA1.1.433269929.1674957879&semt=ais'); */
+    /* background: url('https://img.freepik.com/free-vector/digital-credit-card-transaction-concept-background_1017-36080.jpg?size=626&ext=jpg&ga=GA1.2.60603716.1686848160&semt=ais'); */
+    /* background: url('https://img.freepik.com/free-vector/credit-card-security-concept-background_1017-36205.jpg?w=826&t=st=1686848824~exp=1686849424~hmac=7c9a4fb957a591c0c2c7394ff38b92256a04a3c36a8f327cb41bd7bec9ab3db1'); */
+    background: url('https://blogassets.airtel.in/wp-content/uploads/2024/04/credit-card-protection-article-image.jpg');
+    box-shadow: inset 0px 0px 33px 6px rgba(0,1,65,1);
+    /* box-shadow: 0px 0px 33px 6px rgba(0,1,65,1); */
+    /* background: url('https://pastatic.picsart.com/cms-pastatic/b39a0f86-141a-4810-bacd-ff887c53dd54.png?type=webp&to=min&r=600'); */
+    background-size: cover;
+    background-position: center;
+    
+}
+.myfont{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.mycontainer{
+    /* border: 2px green dotted; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    background: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px rgb(252, 248, 248) solid;
+}
+.card-img-top{
+    width: 100px;
+    /* margin-left: 100px; */
+    transition: 0.8s;
+
+}
+
+.btn{
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+    transition: 0.8s;
+}
+.btn:hover{
+    background-color: white;
+    color: #010141;
+    /* color: #000120; */
+}
+.card:hover .btn{
+    border: 1px solid rgb(240, 237, 237);
+}
+.card:hover .card-img-top{
+    transform: rotateY(180deg);
+}

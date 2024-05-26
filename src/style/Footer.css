@@ -1,0 +1,25 @@
+.footer{
+    background-color: #010141 !important;
+    /* background-color: #000120 !important; */
+}
+.text-white{
+    text-decoration: none;
+}
+
+.myflexd{
+    display: flex;
+}
+/* 786 */
+@media (max-width: 1000px) { 
+    .myflexd{
+        display: block;
+    }
+}
+@media (max-width: 700px) { 
+    .myflexd{
+        display: none;
+    }
+    .tomagin{
+        display: none !important;
+    }
+}

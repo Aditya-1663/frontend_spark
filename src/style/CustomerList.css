@@ -1,0 +1,41 @@
+.myflex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+
+}
+/* //////////////form............ */
+
+input{
+    background: transparent !important;
+    
+    border: none !important;
+    color: white !important;
+    border-bottom: white 2px solid !important ;
+    border-radius: none !important;
+}
+input:focus{
+    outline: none !important;
+    box-shadow: none !important;
+    border: none;
+}
+
+/* ////////////////table css/////////////// */
+
+td,th{
+    text-align: center;
+    background: transparent !important;
+    color: white !important;
+
+}
+.innerbtn{
+    font-weight: lighter;
+}
+
+.debits{
+    color: red !important;
+}
+.credits{
+    color: rgb(0, 255, 34) !important;
+}

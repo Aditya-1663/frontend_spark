@@ -1,0 +1,11 @@
+p{
+    color: white !important;
+
+}
+
+.mycard{
+    display: flex !important;
+    align-items:start;
+    padding: 2px;
+    justify-content: left !important;
+}
