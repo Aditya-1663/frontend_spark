@@ -3,7 +3,8 @@ import { useState } from "react";
 import {useNavigate} from 'react-router-dom';
 
 import Datacontext from "./Datacontex";
-const host = "http://localhost:5000"||"https://backend-spark.onrender.com";
+// const host = "http://localhost:5000"||"https://backend-spark.onrender.com";
+const host = "https://backend-spark.onrender.com";
 
 
 const Datalist = (props) => {

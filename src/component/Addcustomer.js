@@ -8,7 +8,8 @@ const Addcustomer = () => {
     const handlesubmit=async(e)=>{
       // alert((cardential.address))
         e.preventDefault();
-        const host = "http://localhost:5000"||"https://backend-spark.onrender.com";
+        // const host = "http://localhost:5000"||"https://backend-spark.onrender.com";
+        const host = "https://backend-spark.onrender.com";
         const response = await fetch(`${host}/addcustomer/createuser`, {
             method: "POST",
             headers: {
